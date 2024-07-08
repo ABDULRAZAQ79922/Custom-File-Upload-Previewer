@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom File Uploader with Preview and Progress</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="myUploaderContainer">
+    <label for="myFileInput" class="myCustomFileLabel">
+      <span id="myFileName">Choose a file</span>
+      <input type="file" id="myFileInput" class="myFileInput" accept="image/*">
+    </label>
+    <div id="myPreviewContainer" class="myPreviewContainer">
+      <img id="myFilePreview" src="" alt="File Preview" class="myFilePreview">
+      <div id="myProgressContainer" class="myProgressContainer">
+        <div id="myProgressBar" class="myProgressBar"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

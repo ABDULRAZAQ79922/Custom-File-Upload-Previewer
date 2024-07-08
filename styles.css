@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  .myUploaderContainer {
+    text-align: center;
+  }
+  
+  .myCustomFileLabel {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .myCustomFileLabel:hover {
+    background-color: #ff4e42;
+  }
+  
+  .myFileInput {
+    display: none;
+  }
+  
+  #myFileName {
+    display: inline-block;
+    padding-left: 10px;
+  }
+  
+  .myPreviewContainer {
+    margin-top: 20px;
+    display: none;
+    position: relative;
+  }
+  
+  .myFilePreview {
+    width: 200px;
+    height: auto;
+    border: 3px solid #ff6f61;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .myProgressContainer {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+  }
+  
+  .myProgressBar {
+    width: 0%;
+    height: 100%;
+    background-color: #ff6f61;
+    transition: width 0.3s;
+  }
+  
